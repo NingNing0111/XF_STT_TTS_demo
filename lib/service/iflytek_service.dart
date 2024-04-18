@@ -182,6 +182,7 @@ class XfService {
     };
   }
 
+  // 鉴权API
   static String assembleAuthUrl(
       String hostUrl, String apiKey, String apiSecret) {
     // 解析 URL

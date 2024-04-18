@@ -1,16 +1,7 @@
 # iflytek_tts_stt_demo
 
-A new Flutter project.
+&emsp;基于科大讯飞在线语言合成的Websocket API，手撸的一个对接Demo。
 
-## Getting Started
+&emsp;语音合成已完成，语音识别比较复杂，遇到了一些问题，暂时未完成。
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

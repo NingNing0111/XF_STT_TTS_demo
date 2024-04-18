@@ -26,8 +26,8 @@ class _XFTTSPageState extends State<XFTTSPage> {
   void initState() {
     super.initState();
     _service = XfService(
-        appId: "xx",
-        apiSecret: "xx",
+        appId: "xxx",
+        apiSecret: "xxx",
         apiKey: "xxx");
   }
 
@@ -50,11 +50,13 @@ class _XFTTSPageState extends State<XFTTSPage> {
     _service.ttsSendText(param);
   }
 
+  // 建立TTS通道连接，并设置监听函数
   void initTTS() {
     _service.initConnect(tts: true);
     _service.setupTTSListener((event) => onEvent(event));
   }
 
+  // 合成后的base64合并并播放
   void onEvent(event) {
     logger.f(event);
     int status = event['status'];
